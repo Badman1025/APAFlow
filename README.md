@@ -34,10 +34,10 @@ optional arguments:
                         Number of top connections to display (default: 10)
 ```
 ## Test
-- **-i** [Testdata](https://github.com/Badman1025/APAFlow/tree/main/test): 3'UTR APA events and distal/proximal PAS sites.  
-- **-g** Reference genome: [Ensembl](https://grch37.ensembl.org/index.html/).  
-- **-t** Dataset: [TarBasev9](https://dianalab.e-ce.uth.gr/tarbasev9/downloads).  
-- **-m** MEME file: [miRNA_MEME](https://github.com/Badman1025/APAFlow/tree/main/miRNA_meme).
+- **-`i`** [Testdata](https://github.com/Badman1025/APAFlow/tree/main/test): 3'UTR APA events and distal/proximal PAS sites.  
+- **-`g`** Reference genome: [Ensembl](https://grch37.ensembl.org/index.html/).  
+- **-`t`** Dataset: [TarBasev9](https://dianalab.e-ce.uth.gr/tarbasev9/downloads).  
+- **-`m`** MEME file: [miRNA_MEME](https://github.com/Badman1025/APAFlow/tree/main/miRNA_meme).
 ```
 wget https://dianalab.e-ce.uth.gr/tarbasev9/data/Mus_musculus_TarBase-v9.tsv.gz
 wget https://dianalab.e-ce.uth.gr/tarbasev9/data/Homo_sapiens_TarBase-v9.tsv.gz
