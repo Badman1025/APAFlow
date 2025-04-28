@@ -46,7 +46,7 @@ python APAFlow.py -i all_result_temp.chr2.txt -g Mus_musculus.GRCm39.dna.primary
 python APAFlow.py -i all_result_temp.chr1.txt -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t Homo_sapiens_TarBase-v9.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -d 50 -n 1
 ```
 ## Result
-![image](https://github.com/user-attachments/assets/7ecc0593-7a94-426c-adc6-6a3c4d268170)
+![image](https://github.com/user-attachments/assets/32f4c214-dae1-49a8-a10f-1ed437339994)
 
 ## Custom Operation
 After running APAFlow.py, the file `TarBase_3UTRAPA.tsv` will be generated. If you need to focus on a specific type of tissue/cell, you can manually filter the table. The filtered file, `TarBase_3UTRAPA_selected.tsv`, can then be processed using [Subnetwork_Visualization_selected.R](). This script allows filtering based on the `microt_score` parameter and visualizes the entire/top n subnetwork graphs.
