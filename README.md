@@ -53,5 +53,9 @@ After running APAFlow.py, the file `TarBase_3UTRAPA.tsv` will be generated. If y
 ```
 Rscript Subnetwork_Visualization_selected.R
 ```
+## Citation
+1. article
+2. Giorgos Skoufos, Panos Kakoulidis, Spyros Tastsoglou, Elissavet Zacharopoulou, Vasiliki Kotsira, Marios Miliotis, Galatea Mavromati, Dimitris Grigoriadis, Maria Zioga, Angeliki Velli, Ioanna Koutou, Dimitra Karagkouni, Steve Stavropoulos, Filippos S Kardaras, Anna Lifousi, Eustathia Vavalou, Armen Ovsepian, Anargyros Skoulakis, Sotiris K Tasoulis, Spiros V Georgakopoulos, Vassilis P Plagianakos, Artemis G Hatzigeorgiou, TarBase-v9.0 extends experimentally supported miRNA–gene interactions to cell-types and virally encoded miRNAs, Nucleic Acids Research, 2023, DOI:  https://doi.org/10.1093/nar/gkad1071
+3. Timothy L. Bailey, DREME: motif discovery in transcription factor ChIP-seq data, Bioinformatics, Volume 27, Issue 12, June 2011, Pages 1653–1659, https://doi.org/10.1093/bioinformatics/btr261
 
 
