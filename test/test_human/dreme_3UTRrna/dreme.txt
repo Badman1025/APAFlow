@@ -1,0 +1,116 @@
+# DREME 5.5.7
+#     command: dreme -o dreme_3UTRrna -p 3UTRAPA.fa -rna
+#   positives: 1996 from 3UTRAPA.fa (Mon Apr 28 11:29:53 CST 2025)
+#   negatives: 1996 from shuffled positives
+#        host: lthpc
+#        when: Mon Apr 28 11:29:54 CST 2025
+
+MEME version 5.5.7
+
+ALPHABET "RNA" RNA-LIKE
+A "Adenine" CC0000
+C "Cytosine" 0000CC
+G "Guanine" FFB300
+U "Uracil" 008000
+N "Any base" = ACGU
+X = ACGU
+. = ACGU
+V "Not U" = ACG
+H "Not G" = ACU
+D "Not C" = AGU
+B "Not A" = CGU
+M "Amino" = AC
+R "Purine" = AG
+W "Weak" = AU
+S "Strong" = CG
+Y "Pyrimidine" = CU
+K "Keto" = GU
+T = U
+END ALPHABET
+
+Background letter frequencies (from dataset):
+A 0.263 C 0.239 G 0.239 U 0.260
+
+
+MOTIF CUGKR DREME-1
+
+#             Word        Pos        Neg    P-value    E-value
+# BEST       CUGKR       1070        825   4.8e-015   3.4e-010
+#            CUGGG        452        338   3.5e-006   2.5e-001
+#            CUGGA        371        268   5.2e-006   3.6e-001
+#            CUGUA        219        143   1.7e-005   1.2e+000
+#            CUGUG        336        260   4.3e-004   3.0e+001
+
+letter-probability matrix: alength= 4 w= 5 nsites= 1563 E= 3.4e-010
+0.000000 1.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000 0.000000
+0.000000 0.000000 0.616123 0.383877
+0.405630 0.000000 0.594370 0.000000
+
+
+MOTIF YAUUU DREME-2
+
+#             Word        Pos        Neg    P-value    E-value
+# BEST       YAUUU        602        419   1.8e-011   1.3e-006
+#            CAUUU        369        259   1.0e-006   7.0e-002
+#            UAUUU        312        213   2.1e-006   1.4e-001
+
+letter-probability matrix: alength= 4 w= 5 nsites= 792 E= 1.3e-006
+0.000000 0.529040 0.000000 0.470960
+1.000000 0.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 1.000000
+0.000000 0.000000 0.000000 1.000000
+0.000000 0.000000 0.000000 1.000000
+
+
+MOTIF YCCASC DREME-3
+
+#             Word        Pos        Neg    P-value    E-value
+# BEST      YCCASC        401        276   8.0e-008   5.4e-003
+#           UCCAGC         99         53   9.0e-005   6.0e+000
+#           UCCACC         75         38   2.7e-004   1.8e+001
+#           CCCAGC        153        110   3.6e-003   2.4e+002
+#           CCCACC        127         91   7.3e-003   4.9e+002
+
+letter-probability matrix: alength= 4 w= 6 nsites= 476 E= 5.4e-003
+0.000000 0.619748 0.000000 0.380252
+0.000000 1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000 0.000000
+0.000000 0.428571 0.571429 0.000000
+0.000000 1.000000 0.000000 0.000000
+
+
+MOTIF AABAAA DREME-4
+
+#             Word        Pos        Neg    P-value    E-value
+# BEST      AABAAA        362        246   1.9e-007   1.3e-002
+#           AAUAAA        137         89   6.2e-004   4.2e+001
+#           AAGAAA        145         97   8.9e-004   5.9e+001
+#           AACAAA        125         90   8.5e-003   5.7e+002
+
+letter-probability matrix: alength= 4 w= 6 nsites= 428 E= 1.3e-002
+1.000000 0.000000 0.000000 0.000000
+1.000000 0.000000 0.000000 0.000000
+0.000000 0.292056 0.359813 0.348131
+1.000000 0.000000 0.000000 0.000000
+1.000000 0.000000 0.000000 0.000000
+1.000000 0.000000 0.000000 0.000000
+
+
+MOTIF ACGU DREME-5
+
+#             Word        Pos        Neg    P-value    E-value
+# BEST        ACGU        195        108   1.2e-007   7.7e-003
+#             ACGU        195        108   1.2e-007   7.7e-003
+
+letter-probability matrix: alength= 4 w= 4 nsites= 206 E= 7.7e-003
+1.000000 0.000000 0.000000 0.000000
+0.000000 1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000 0.000000
+0.000000 0.000000 0.000000 1.000000
+
+
+# Stopping reason: E-value threshold exceeded
+#    Running time: 29.04 seconds
