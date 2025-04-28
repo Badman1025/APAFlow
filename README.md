@@ -8,7 +8,7 @@ The APAFlow pipeline is structured into five modules:
 * **Integrate Motif and Interaction Data**: Aligns Tomtom motif results with TarBase interactions to identify regulatory overlaps.
 * **Generate Interactive Visualizations**: Executes an R script to produce an interactive subnetwork highlighting top-ranked APA regulatory interactions.
 
-## install
+## Install
 ```
 conda env create -f environment.yml
 conda activate APAFlow
@@ -33,16 +33,23 @@ optional arguments:
   -n TOP_N, --top_n TOP_N
                         Number of top connections to display (default: 10)
 ```
-## test
+## Test
 - **-i** Testdata(-----------): 3'UTR APA events and distal/proximal PAS sites.  
 - **-g** Reference genome: [Ensembl](https://grch37.ensembl.org/index.html/).  
 - **-t** Dataset: [TarBasev9](https://dianalab.e-ce.uth.gr/tarbasev9/downloads).  
 - **-m** MEME file: miRNA_MEME(----------------).
 ```
 wget https://dianalab.e-ce.uth.gr/tarbasev9/data/Mus_musculus_TarBase-v9.tsv.gz
-gunzip Mus_musculus_TarBase-v9.tsv.gz
+wget https://dianalab.e-ce.uth.gr/tarbasev9/data/Homo_sapiens_TarBase-v9.tsv.gz
+
 python APAFlow.py -i all_result_temp.chr2.txt -g Mus_musculus.GRCm39.dna.primary_assembly.fa -t Mus_musculus_TarBase-v9.tsv -m ./miRNA_meme/Mus_musculus_mmu.meme
+python APAFlow.py -i all_result_temp.chr1.txt -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t Homo_sapiens_TarBase-v9.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -d 50 -n 1
 ```
+## Result
+![image](https://github.com/user-attachments/assets/7ecc0593-7a94-426c-adc6-6a3c4d268170)
+
+
+
 
 
 
