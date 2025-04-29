@@ -1,0 +1,16 @@
+name: APAFlow
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - r=4.2
+  - python-igraph
+  - bioconda::bedtools
+  - bioconda::meme
+  - conda-forge::r-dplyr
+  - conda-forge::r-purrr
+  - conda-forge::r-widgetframe
+  - conda-forge::r-htmlwidgets
+  - pandas
+  - pip
