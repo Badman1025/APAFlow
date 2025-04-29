@@ -12,6 +12,8 @@ The APAFlow pipeline is structured into five modules:
 ```
 conda env create -f environment.yml
 conda activate APAFlow
+R
+install.packages("edgebundleR")
 
 python APAFlow.py -h
 usage: APAFlow.py [-h] -i INPUT_FILE -g GENOME_FASTA -t TARBASE_FILE -m MEME_FILE [-d DISTANCE] [-n TOP_N]
