@@ -1,6 +1,7 @@
 # APAFlow
 The APAFlow pipeline is a comprehensive bioinformatics tool designed to integrate and automate the analysis of 3' UTR alternative polyadenylation (APA) events. It processes DAPARS2 results, performs motif discovery using DREME, and aligns data with TarBase references. This pipeline offers a streamlined and automated approach to studying APA events and their regulatory networks, enhancing efficiency and reproducibility in bioinformatics research.
-![image](https://github.com/user-attachments/assets/c01fbd84-bea4-4a7d-aebb-88fa5432033c)
+![image](https://github.com/user-attachments/assets/746220f7-3ca5-45be-8136-68436f82c028)
+
 
 The APAFlow pipeline is structured into five modules:
 * **Process DAPARS2 Results**: Converts Dapars/Dapars2/Dapars_LR output into a standardized BED file for downstream analysis.
