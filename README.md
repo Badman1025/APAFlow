@@ -1,5 +1,6 @@
 # APAFlow
-The APAFlow pipeline is a comprehensive bioinformatics tool designed to integrate and automate the analysis of 3' UTR alternative polyadenylation (APA) events. It processes Dapars results, performs motif discovery using DREME, and aligns data with TarBase references. This pipeline offers a streamlined and automated approach to studying APA events and their regulatory networks, enhancing efficiency and reproducibility in bioinformatics research.
+The APAFlow pipeline is a comprehensive bioinformatics tool designed to integrate and automate the analysis of 3' UTR alternative polyadenylation (APA) events. It processes Dapars results, performs motif discovery using DREME, and aligns data with TarBase references. This pipeline offers a streamlined and automated approach to studying APA events and their regulatory networks, enhancing efficiency and reproducibility in bioinformatics research. 
+In the Tools module of the Pre-implantation APA database website (accessible at https://apa-early-embryo-development.imustbioinfo.cn/), the online analysis functions of APAFlow and DAPAFlow are integrated. Users can upload files in the specified format to obtain analysis results. The platform currently supports 17 species, all of which have been tested and proven to run stably.
 ![image](https://github.com/user-attachments/assets/746220f7-3ca5-45be-8136-68436f82c028)
 
 
@@ -60,8 +61,6 @@ Rscript Subnetwork_Visualization_selected.R
 ```
 ## Citation
 1. Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3' UTRs
-2. Zhang, Y., Li, A., Wu, J. et al (2026) The Dynamic Landscape of Alternative 3' UTR during Mammalian Preimplantation Development Developmental Biology https://doi.org/10.1016/j.ydbio.2026.03.014.
-3. Skoufos, G., Kakoulidis, P., Tastsoglou, S. et al (2024) TarBase-v9.0 extends experimentally supported miRNA-gene interactions to cell-types and virally encoded miRNAs Nucleic acids research 52: D304-d310. https://doi.org/10.1093/nar/gkad1071.
-4. Bailey, T. L. (2011) DREME: motif discovery in transcription factor ChIP-seq data Bioinformatics 27: 1653-1659. https://doi.org/10.1093/bioinformatics/btr261.
+2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/https://doi.org/10.1016/j.ydbio.2026.03.014.
 
 
