@@ -61,6 +61,6 @@ Rscript Subnetwork_Visualization_selected.R
 ```
 ## Citation
 1. Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3' UTRs
-2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/https://doi.org/10.1016/j.ydbio.2026.03.014.
+2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/10.1016/j.ydbio.2026.03.014.
 
 
