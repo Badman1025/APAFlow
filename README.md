@@ -60,7 +60,9 @@ After running APAFlow.py, the file `TarBase_3UTRAPA.tsv` will be generated. If y
 Rscript Subnetwork_Visualization_selected.R
 ```
 ## Citation
-1. Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3' UTRs
-2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/10.1016/j.ydbio.2026.03.014.
+[1]. Zhang, Y., Li, A., Guo, Y. et al (2026) Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3′ UTRs Placenta 181: 14-25. 
+https://doi.org/10.1016/j.placenta.2026.04.017.
+[2]. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114.
+https://doi.org/10.1016/j.ydbio.2026.03.014.
 
 
